@@ -16,7 +16,8 @@ public class OtherJar {
     private static final String log4j_resource_file = "";
 
     static {
-        // codes of third-party jar.  from  "com.alibaba.rocketmq.rocketmq-client"
+        // codes of third-party jar.
+        // from  "com.alibaba.rocketmq.rocketmq-client"
 
         String logConfigFilePath = System.getProperty("configFile", System.getenv("configFile"));
         try {
