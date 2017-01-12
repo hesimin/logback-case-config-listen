@@ -9,8 +9,6 @@ import org.slf4j.LoggerFactory;
  */
 public class Main {
 
-
-
     public static void main(String[] args) throws Exception {
         OtherJar.print();
         new Thread(new Runnable() {
